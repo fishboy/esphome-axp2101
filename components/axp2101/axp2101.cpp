@@ -34,6 +34,8 @@ static const char *TAG = "axp2101.sensor";
 
 void AXP2101Component::setup()
 {
+    ESP_LOGCONFIG(TAG, "AXP2102 config routine by fishboy");
+    
     ESP_LOGCONFIG(TAG, "getID:0x%x", PMU.getChipID());
 
     // Set the minimum common working voltage of the PMU VBUS input,
