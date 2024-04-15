@@ -244,7 +244,7 @@ void AXP2101Component::setup()
     - XPOWERS_CHG_LED_ON,
     - XPOWERS_CHG_LED_CTRL_CHG,
     * */
-    PMU.setChargingLedMode(XPOWERS_CHG_LED_BLINK_4HZ);
+    PMU.setChargingLedMode(XPOWERS_CHG_LED_CTRL_CHG);
 
 
     // Force add pull-up
